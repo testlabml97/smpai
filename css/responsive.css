@@ -10,12 +10,21 @@
   .slider-content {
     padding: 146px 0;
   }
+  
+  .logo{
+    height: 40px;
+  }
   .work-right-text {
     padding: 40px 0;
   }
   .work-right-text h2 {
     font-size: 18px;
     line-height: 28px;
+  }
+  #text{
+    position: absolute;
+    top:-30vh;
+   
   }
 }
 
@@ -25,6 +34,21 @@
   .main-menu ul.navbar-nav li {
     display: inline-block;
     padding: 0 8px;
+  }
+  #text{
+    position: absolute;
+    top:-40vh;
+   
+  }
+  .heading-3{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .logo {
+    
+    position: absolute;
+    top:10px;
+    
   }
   .layer-1-1 h2 {
     font-size: 24px;
@@ -126,8 +150,8 @@
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
-    height: 60px  !important;
-    padding: 9px 0;
+    height: 40px  !important;
+   margin-bottom: 15px !important;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 15px 0;
@@ -151,7 +175,7 @@
     left: 0;
     padding: 0;
     position: absolute;
-    top: -6px;
+    top:10px;
     z-index: 999999;
   }
   .logo a {
@@ -161,6 +185,11 @@
   .slider-area {
     margin-top: 60px;
   }
+  #homepage_slider img {
+    width: 200%;
+    max-width: 200%;
+    
+    }
 
   .slider-content h2 {
     font-size: 18px !important;
@@ -269,6 +298,26 @@
   li.threaded-comments {
     margin-left: 0;
   }
+  .heading-1{
+    font-weight: bold;
+    font-size: 21px;
+    
+  }
+  .sub-1{
+    line-height: 20px;
+    font-size: 15px;
+    
+  }
+  #text{
+    position: absolute;
+    top:-50vh;
+   
+  }
+  .heading-3{
+    font-size: 20px;
+    line-height: 40px;
+  }
+ 
 }
 
 /* Large Mobile :480px. */
