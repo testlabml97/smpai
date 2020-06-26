@@ -398,8 +398,8 @@ div#preloader {
 .sticky-logo .logo {
  border-radius:5px;
   padding: 0;
-  margin-bottom: 10px;
-  max-width: 17vh;
+  margin-bottom: 20px;
+  max-width: 18vh;
 }
 
 
@@ -459,11 +459,50 @@ div#preloader {
 .stick .navbar-default .navbar-toggle {
   padding: 10px 0px;
 }
+/*---2..slider area---*/
+#text{
+  position: relative;
+  bottom: 50vh;
+}
+
+.img-slider1 ,.img-slider2{
+  opacity: 0.4;
+} 
+.sub-text{
+  color:#00b3b3;
+}
+.sub-text2{
+  color: #ff9900;
+}
+
+/*---slider area ends---*/
 
 /*------------------------------
   3. About Area
 --------------------------------*/
-
+.bg-overlay {
+  background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.1)), url("../img/background/bg2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  min-height: 500px;
+  padding-top: 50px;
+}
+.heading-1{
+ 
+  font-weight: bold;
+  color: #ffff;
+}
+.heading-3{
+  font-weight: bold;
+  color: #ffff;
+}
+.sub-1{
+  
+  line-height: 40px;
+  color: #ffff;
+}
 .about-area {
   background-color: #f9f9f9;
 }
@@ -729,10 +768,20 @@ div#preloader {
 .well-text>h4 {
   color:black;
   font-size: 30px;
-  font-weight: 300;
-  line-height: 40px;
+  font-weight: 350;
+  line-height: 70px;
 }
-
+.btn{
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #00b3b3;
+  color: #ffff;
+  padding: 10px 15px;
+}
+.btn:hover{
+  background-color: #3CD6ED;
+  color: #ffff;
+}
 
 
 .wellcome-text .section-headline p {
