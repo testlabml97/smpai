@@ -9,9 +9,9 @@
   .logo{
     height: 35px !important;
   }
-  #text{
+#text{
     position: absolute;
-    top:-35vh;
+    top:-50vh;
    
   }
 }
