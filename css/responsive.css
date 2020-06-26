@@ -2,14 +2,26 @@
   .work-right-text {
     padding: 150px 150px;
   }
+  
 }
-
+/*--long desktop..*/
+@media (max-width: 1440px){
+  .logo{
+    height: 35px !important;
+  }
+  #text{
+    position: absolute;
+    top:-35vh;
+   
+  }
+}
 /* Normal desktop :992px. */
 
 @media (min-width: 992px) and (max-width: 1169px) {
   .slider-content {
     padding: 146px 0;
   }
+  
   
   .logo{
     height: 40px;
